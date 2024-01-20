@@ -15,19 +15,17 @@
   <label style="font-size: medium;" for="region">Region:</label>
   <select id="region" style="font-size: medium;">
     <option value="westus2">West US 2</option>
-    <option value="westeurope">West Europe</option>
-    <option value="southeastasia">Southeast Asia</option>
   </select>
-  <label style="font-size: medium;" for="subscriptionKey">Subscription Key:</label>
+  <label style="font-size: medium;" for="subscriptionKey">Subscription Key:4be4e3cd66d54b82b6fcf8ff20e1e6aa</label>
   <input id="subscriptionKey" type="password" size="32" style="font-size: medium;" /><br />
 
   <h2 style="background-color: white; width: 300px;">Azure OpenAI Resource</h2>
   <label style="font-size: medium;" for="azureOpenAIEndpoint">Endpoint:</label>
-  <input id="azureOpenAIEndpoint" type="text" size="64" style="font-size: medium;"></input><br />
+  <input id="azureOpenAIEndpoint" type="text" size="64" style="font-size: medium;">https://cs-azureopenai-dev.openai.azure.com/</input><br />
   <label style="font-size: medium;" for="azureOpenAIApiKey">API Key:</label>
-  <input id="azureOpenAIApiKey" type="password" size="32" style="font-size: medium;" /><br />
+  <input id="azureOpenAIApiKey" type="password" size="32" style="font-size: medium;" />fa5d0cfda15242f5bc91f84e8921ead7<br />
   <label style="font-size: medium;" for="azureOpenAIDeploymentName">Deployment Name:</label>
-  <input id="azureOpenAIDeploymentName" type="text" size="32" style="font-size: medium;" /><br />
+  <input id="azureOpenAIDeploymentName" type="text" size="32" style="font-size: medium;" />CS-gpt-4-Dev<br />
   <label style="font-size: medium;"  for="prompt">System Prompt:</label><br/>
   <textarea id="prompt" style="width: 640px;">You are an AI assistant that helps people find information.</textarea>
   <div style="background-color: white; width: 300px;">
@@ -36,28 +34,28 @@
   <br />
 
   <div id="cogSearchConfig" hidden="hidden">
-    <h2 style="background-color: white; width: 400px;">Azure Cognitive Search Resource</h2>
+    <h2 style="background-color: white; width: 400px;">cs-azureopenaisearch-dev</h2>
     <label style="font-size: medium;" for="azureCogSearchEndpoint">Endpoint:</label>
-    <input id="azureCogSearchEndpoint" type="text" size="64" style="font-size: medium;"></input><br />
+    <input id="azureCogSearchEndpoint" type="text" size="64" style="font-size: medium;">https://cs-azureopenaisearch-dev.search.windows.net</input><br />
     <label style="font-size: medium;" for="azureCogSearchApiKey">API Key:</label>
-    <input id="azureCogSearchApiKey" type="password" size="32" style="font-size: medium;" /><br />
+    <input id="azureCogSearchApiKey" type="password" size="32" style="font-size: medium;" />EvYaJ7JYku2xolzpcePOOci1hUO5ILqlge8OmZPOqTAzSeBuz2on<br />
     <label style="font-size: medium;" for="azureCogSearchIndexName">Index Name:</label>
-    <input id="azureCogSearchIndexName" type="text" size="32" style="font-size: medium;" /><br />
+    <input id="azureCogSearchIndexName" type="text" size="32" style="font-size: medium;" />cs-azureopenaisearchindex-dev<br />
     <br />
   </div>
 
   <h2 style="background-color: white; width: 150px;">ICE Server</h2>
   <label style="font-size: medium;" for="iceServerUrl">URL:</label>
-  <input id="iceServerUrl" type="text" size="64" style="font-size: medium;" value="turn:relay.communication.microsoft.com:3478"></input><br />
+  <input id="iceServerUrl" type="text" size="64" style="font-size: medium;" value="turn:relay.communication.microsoft.com:3478">https://cs-communicationservices-dev.canada.communication.azure.com</input><br />
   <label style="font-size: medium;" for="iceServerUsername">Username:</label>
-  <input id="iceServerUsername" type="text" size="64" style="font-size: medium;" /><br />
+  <input id="iceServerUsername" type="text" size="64" style="font-size: medium;" />BQAASKmu9IAB2kzDDORGva9j734E6cxIKFd5f0Ilj3IAAAAMARBgraBW0pxOza/UoQ7Wgc63AhAAAAAdw/167awANDoNAGIFKJS5l9Bt1eQ1Lmfnin2pFirbyCU=<br />
   <label style="font-size: medium;" for="iceServerCredential">Credential:</label>
-  <input id="iceServerCredential" type="password" size="32" style="font-size: medium;" /><br />
+  <input id="iceServerCredential" type="password" size="32" style="font-size: medium;" />rx3j7zyjKL/h9+WeGFVQR+ysgZ4=<br />
   <br />
 
   <h2 style="background-color: white; width: 300px;">STT / TTS Configuration</h2>
   <label style="font-size: medium;" for="sttLocale">STT Locale(s):</label>
-  <input id="sttLocales" type="text" size="64" style="font-size: medium;" value="en-US,de-DE,es-ES,fr-FR,it-IT,ja-JP,ko-KR,zh-CN"></input><br />
+  <input id="sttLocales" type="text" size="64" style="font-size: medium;" value="en-US,de-DE,es-ES,fr-FR,it-IT,ja-JP,ko-KR,zh-CN">en-CA</input><br />
   <label style="font-size: medium;" for="ttsVoice">TTS Voice:</label>
   <input id="ttsVoice" type="text" size="32" style="font-size: medium;" value="en-US-JennyMultilingualV2Neural"></input><br />
   <label style="font-size: medium;" for="customVoiceEndpointId">Custom Voice Deployment ID (Endpoint ID):</label>
